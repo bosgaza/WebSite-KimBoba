@@ -539,3 +539,50 @@ body.dark-theme{
     bottom: 12rem;
     transform: rotate(30deg);
   }
+  /*=============== Pemesanan ===============*/
+.container_pemesanan {
+    max-width: 400px;
+    margin: 50px auto;
+    margin-top: 120px;
+    background-color: navajowhite;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .title {
+    text-align: center;
+    color: #333;
+  }
+  
+  .order-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-label {
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  .form-input {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid navajowhite;
+    border-radius: 4px;
+  }
+  
+  .submit-btn {
+    margin-top: 20px;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #45a049;
+  }
+  
